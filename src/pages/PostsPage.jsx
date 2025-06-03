@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function PostsPage() {
   const [posts, setPosts] = useState([]);
@@ -19,7 +20,7 @@ export default function PostsPage() {
             <tr>
               <th>id</th>
               <th>nome</th>
-              <th>actions</th>
+              <th>azione</th>
             </tr>
           </thead>
           <tbody>
@@ -27,7 +28,9 @@ export default function PostsPage() {
               <tr key={post.id}>
                 <td>{post.id}</td>
                 <td>{post.title}</td>
-                <td>show - edit</td>
+                <td>
+                  <Link to={`/posts/${post.id}`}> Mostra dettagli </Link>
+                </td>
               </tr>
             ))}
           </tbody>
