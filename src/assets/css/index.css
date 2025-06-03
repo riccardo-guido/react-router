@@ -1,39 +1,37 @@
 :root {
-    --primary-color: blue;
-    --grid-spacing: 0.5rem;
+  --primary-color: blue;
+  --grid-spacing: 0.5rem;
 }
 
-/* # RESET */ 
+/* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .row {
   display: flex;
 }
-
-
 
 /* UI*/
 
@@ -53,8 +51,7 @@ ul {
   padding-right: 0.5rem;
 }
 
-
-.col-30{
+.col-30 {
   width: 30%;
 }
 .col-1-3 {
@@ -64,35 +61,29 @@ ul {
 /* # PAGE HEADER */
 
 #page-header {
- height: 100px;
- display: flex;
+  height: 100px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
 #page-header img {
   height: 60px;
 }
 
-
 #page-header nav ul {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 #page-header nav ul li.active {
-    color: #0C7CEC;
+  color: #0c7cec;
 }
 
 /* # MAIN */
 
 main {
-    height: 350px;
-   
-    background-color: #1C1C1C;
-    color: white;
-    
+  height: 350px;
 }
 
 /*#  PRODUCT SECTION */
@@ -106,9 +97,6 @@ main {
   justify-content: center;
   align-items: center;
   font-size: small;
-
-  
-
 }
 
 #product-section img {
@@ -119,26 +107,21 @@ main {
 /*# MIDDLEPAGEFOOTER */
 
 #middlepagefooter {
-  background-color: #0C7CEC;
+  background-color: #0c7cec;
   height: 100px;
 }
 #middlepagefooter-container {
-  
-  background-color: #0C7CEC;
+  background-color: #0c7cec;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
-
 }
 #middlepagefooter img {
   height: 50px;
 }
 
-
 /* # FOOTER */
-
 
 footer {
   height: 500px;
@@ -146,11 +129,9 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-
 }
 
 #footer-container {
   width: 500px;
-  margin: 0 50px ;
-  
+  margin: 0 50px;
 }
